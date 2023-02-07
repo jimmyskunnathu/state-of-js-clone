@@ -1,0 +1,210 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.main{
+
+
+
+}
+
+.main .other-survey{
+    color: #272325;
+    background-color: black;
+    width: 1512px;
+    
+
+}.other-survey-inner{
+    color: #fff;
+}
+     */
+body{
+    margin: 0;
+    background-color: #303435;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 35, 37);
+    height: 47px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a,
+nav span {
+    margin-left: 40px;
+    
+
+    
+}
+
+nav a {
+    font-family: IBM Plex Mono,monospace;
+    font-weight: 800;
+    color: rgb(71, 207, 237);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav span {
+    font-family: IBM Plex Mono,monospace;
+    /* color: var(255, 246, 230); */
+    font-weight: 400;
+    text-align: center;
+    color: #777 ;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: IBM Plex Mono,monospace;
+
+}
+.heading h1{
+    text-align: center;
+    color: #fff6e6;
+    font-family: IBM Plex Mono,monospace;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    
+}
+main h3{
+    text-align: center;
+    color: #c1bcb1;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 17.6px;
+    font-family: IBM Plex Mono,monospace;
+}
+.survey-edition{
+    background-color: #272325;
+    height: 400px;
+    width: 800px;
+    
+}
+.survey-edition-card{
+    left: 0;
+    background: #8d4ca8;
+    top: 0;
+    font-family: IBM Plex Mono,monospace;
+    width: 126px;
+    height: 37.2px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.survey-edition-card h4{
+    margin: 0;
+    color: #fff6e6;
+}
+.year{
+    background-color: #47cfed;
+    width: 58.53px;
+    height: 37.2px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    
+}
+.survey-align{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-image{
+    position: relative;
+    top: -37.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.inner-image img{
+    width: 540px;
+    height: 360px ;
+}
+.survey-box{
+    width: 800px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.para{
+    width: 800px;
+    text-align: center;
+    
+}
+.para p{
+    color: #fff6e6;
+    font-size: var(--large-font);
+    margin-bottom: var(--spacing);
+    margin-top: 35px;
+    font-weight: var(--medium);
+    line-height: 1.7;
+}
+.newsletter{
+    background-color: #272325;
+    width: 800px;
+    
+}
+.newsletter p{
+    text-align: center;
+    color: #fcf3e3;
+}
+.newsletter-btn{
+    display: flex;
+}
+
+button[type="email"]{
+    padding: var(--halfspacing) var(--halfspacing);
+    border: none;
+    width: 610px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+button[type="submit"]{
+    padding: var(--halfspacing) var(--halfspacing);
+    border: none;
+    width: 140px;
+    background-color: transparent;
+    border: var(--border);
+    border-color: var(--link-color);
+    cursor: pointer;
+    /* display: block; */
+    text-align: center;
+    font-weight: var(--bold);
+    white-space: nowrap;
+    padding: var(--halfspacing) 0;
+    /* width: 50%; */
+    color: var(--text);
+    margin-left: 10px;
+}
+.past-survey{
+    width: 800px;
+}
+  .past-survey h2{
+    color: #fff6e6;
+    font-size: var(--larger-font);
+    font-weight: var(--medium);
+}
+.past-item-row{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+  .past-item img{
+    width: 360px;
+}
