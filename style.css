@@ -240,12 +240,16 @@ button[type="submit"] {
     color: #fff6e6;
     font-size: var(--larger-font);
     font-weight: var(--medium);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .past-item-row {
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .past-item img {
@@ -322,6 +326,14 @@ button[type="submit"] {
     background-color: #272325;
 }
 
+.past-item-image-wrapper-dark-green {
+    background-color: #212424;
+}
+
+.past-item-image-wrapper-white {
+    background-color: #edefed;
+}
+
 .past-item-image {
     height: 100%;
     width: 100%;
@@ -349,4 +361,36 @@ button[type="submit"] {
 
 .past-item-year h4 {
     margin: 0;
+}
+
+.past-item-button-container {
+    display: flex;
+    margin-top: -32px;
+}
+
+.past-item-button-container a {
+    width: 50%;
+
+    background: 0 0;
+    border: var(--border);
+    border-color: var(--link-color);
+    color: var(--text);
+    padding: var(--halfspacing) 0;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-weight: var(--bold);
+    white-space: nowrap;
+
+    transition-duration: 0.4s;
+
+}
+
+.past-item-button-container-alt a {
+    width: 100%;
+}
+
+.past-item-button-container a:hover {
+    border-style: solid;
+    color: var(--link-color);
 }
