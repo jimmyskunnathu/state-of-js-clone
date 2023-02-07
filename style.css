@@ -151,6 +151,26 @@ main h3 {
     width: 800px;
     display: flex;
     /* justify-content: space-between; */
+
+}
+
+.survey-box a {
+    display: flex;
+    border: var(--border);
+    border-color: var(--link-color);
+    padding: var(--halfspacing) 0;
+    cursor: pointer;
+    /* display: block; */
+    /* text-align: center; */
+    font-weight: var(--bold);
+    white-space: nowrap;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff6e6;
+
+
 }
 
 .para {
@@ -171,12 +191,14 @@ main h3 {
 .newsletter {
     background-color: #272325;
     width: 800px;
+    height: 150px;
 
 }
 
 .newsletter p {
     text-align: center;
     color: #fcf3e3;
+
 }
 
 .newsletter-btn {
@@ -227,5 +249,104 @@ button[type="submit"] {
 }
 
 .past-item img {
+    /* width: 360px; */
+    height: 240px;
+}
+
+.past-item-2 img {
+    height: 277px;
+    width: 380px;
+    background-color: #212424;
+
+}
+
+.year-2021 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 37px;
+    right: 0;
+}
+
+.year-2021 h4 {
+    background-color: #47cfed;
+    width: 58.5px;
+    height: 37.2px;
+    margin-top: -463px;
+
+}
+
+.survey-box-2 {
+    display: flex;
+}
+
+.survey-box-2 a {
+    display: flex;
+    border: var(--border);
+    border-color: var(--link-color);
+    padding: var(--halfspacing) 0;
+    cursor: pointer;
+    /* display: block; */
+    /* text-align: center; */
+    font-weight: var(--bold);
+    white-space: nowrap;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff6e6;
+
+}
+
+.year-2020 h4 {
+    background-color: #47cfed;
+    height: 37.2px;
+    width: 58.5px;
+    position: absolute;
+    padding: var(--quarterspacing);
+    margin-top: -278px;
+    margin-bottom: var(--spacing);
+    margin-left: 310px;
+
+
+}
+
+.past-item-image-wrapper {
+
+
     width: 360px;
+    height: 213px;
+    padding: 20px 10px;
+    display: block;
+    background-color: #272325;
+}
+
+.past-item-image {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.past-item-year {
+    background-color: #47cfed;
+    color: var(--background);
+    width: 58px;
+    height: 37px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -253px;
+    left: 321px;
+}
+
+.past-item-year h4 {
+    margin: 0;
 }
