@@ -394,3 +394,112 @@ button[type="submit"] {
     border-style: solid;
     color: var(--link-color);
 }
+
+.footer-logo {
+    width: 800px;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.nijibox img {
+    width: 240px;
+    height: 95px;
+
+}
+
+.google-text img {
+    width: 240px;
+    height: 82.66px;
+
+}
+
+.footer-language {
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.footer-language h3 {
+    text-align: left;
+}
+
+.languages {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.languages li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--primary);
+    font-size: var(--medium-font);
+    font-weight: var(--bold);
+    cursor: pointer;
+
+    transition: all ease-in .3s;
+
+    line-height: 8px;
+}
+
+.languages li:hover {
+    text-decoration: underline;
+}
+
+#footer-heading h3  {
+    margin: 0;
+    font-size: var(--medium-font);
+    color: var(--text);
+    font-weight: 700;
+
+    line-height: 8px;
+}
+
+#footer-heading {
+    cursor:text;
+}
+
+#footer-heading:hover {
+    text-decoration: none;
+}
+
+#footer-selected-language {
+    background: var(--primary);
+color: var(--background);
+border-radius: 3px;
+padding: calc(var(--quarterspacing) * .8) var(--halfspacing);
+}
+.footer-language h4{
+    text-align: center;
+    color: #47cfed;
+    font-weight: 600;
+    
+}
+.f{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+    
+    
+}
+.text h4{
+    color:#fff6e6;
+    margin: 0;
+
+}
+#no{
+    color: #47cfed;
+    padding: 0;
+}
+#no:hover{
+    text-decoration: underline;
+}
